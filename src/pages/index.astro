@@ -1,5 +1,7 @@
 ---
+import Nav from "../components/Nav.astro";
 
+//const posts = await Astro.glob('/blog/*.*')
 ---
 
 <html lang="en">
@@ -9,14 +11,20 @@
 		<meta name="viewport" content="width=device-width" />
 		<meta name="generator" content={Astro.generator} />
 		<title>Astro</title>
-		<script is:inline src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+		<script
+			is:inline
+			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+		></script>
 	</head>
 	<body>
 		<h1>Astro</h1>
 		<a href="inu-kami/inukami-index">123</a>
-
+		<Nav />
+		<!-- {
+			posts.map(post=>post.url)
+		} -->
 		<script>
-			gsap.to('h1',{x:'70%',duration:5})
+			gsap.to("h1", { x: "70%", duration: 5 });
 		</script>
 	</body>
 </html>
