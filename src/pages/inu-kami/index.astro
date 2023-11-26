@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>麵屋犬神</title>
+    <script is:inline src="https://cdn.tailwindcss.com"></script>
+    <script is:inline src="https://kit.fontawesome.com/51c375e060.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script is:inline src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script is:inline src="https://cdn.jsdelivr.net/npm/simple-parallax-js@5.5.1/dist/simpleParallax.min.js"></script>
+    <style>
+        body {
+            background-color: black;
+        }
+
+        .BG {
+            background-image: url(../../../public/01/BG-1.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: scroll;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        header {
+
+
+            background-image:
+                linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, .4), rgba(0, 0, 0, .4)),
+                url(../../../public/01/bg.svg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+
+        }
+    
+    </style>
+</head>
+
+<body>
+    <nav class="flex w-full mx-auto pb-[100px] fixed z-30">
+        <div class="container flex w-full flex-wrap mx-auto z-50 ">
+            <div class="w-1/2 pl-[30px]  md:h-[100px] h-[50px] xl:h-[100px]">
+                <div class="h-[100px] pt-[20px]">
+                    <a href="#">
+                        <img src="../../../public/01/OK_logo.svg" alt=""
+                            class="object-cover xl:h-[100px] md:h-[80px] sm:h-[70px] h-[40px] ">
+                    </a>
+                </div>
+            </div>
+            <div
+                class="rounded-b-xl flex flex-wrap items-center lg:justify-center w-1/2 md:flex-row flex-col justify-end">
+
+                <div
+                    class="ml-auto bg-yellow-300 bg-yellow-300 md:rounded-bl-xl items-center h-[100px] flex w-1/4 justify-center hover:bg-white duration-300 flex-wrap h-[150px] lg:h-[100px]">
+                    <a href="#menu" class="text-black text-xl text-center px-[30px]">餐點介紹</a>
+                </div>
+                <div
+                    class="ml-auto  bg-yellow-300 items-center h-[100px] flex w-1/4 justify-center hover:bg-white duration-300 h-[150px] lg:h-[100px]">
+                    <a href="#story" class="text-black text-xl text-center px-[30px]">品牌故事</a>
+                </div>
+                <div
+                    class="ml-auto  bg-yellow-300 items-center h-[100px] flex w-1/4 justify-center hover:bg-white duration-300 h-[150px] lg:h-[100px]">
+                    <a href="#discount" class="text-black text-xl text-center px-[30px]">優惠資訊</a>
+                </div>
+                <div
+                    class="ml-auto bg-yellow-300 md:rounded-br-xl items-center h-[100px] flex w-1/4 justify-center hover:bg-white duration-300 h-[150px] lg:h-[100px] rounded-b-xl md:rounded-br-xl md:rounded-none">
+                    <a href="contact.html" class="text-black text-xl text-center px-[30px] ">聯絡我們</a>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+    <header class="xl:h-[1500px] h-[1000px] md:h-[1400px]">
+        <div class="container text-white pt-[200px] flex items-center mx-auto">
+            <div class="flex flex-col w-1/2 xl:pl-[100px] pl-[30px]">
+                <h2 class="md:text-4xl text-xl font-bold mb-[20px]">日本大和家系拉麵</h2>
+                <p class="md:text-xl text-sm">大和家系麵屋犬神，湯頭以豚骨為基礎，經過長時間熬煮，濃郁豚骨風味</p>
+            </div>
+            <div data-aos="fade-left" class="w-1/2 xl:pl-[70px] w-[800px] ">
+                <img src="../../../public/01/ramen-1.png" alt="">
+            </div>
+        </div>
+        <div class="container text-white flex items-center mx-auto">
+            <div class="w-1/2 flex justify-end pr-[30px]">
+                <div data-aos="fade-right" class="aspect-[4/5] w-[400px] rounded-3xl overflow-hidden">
+                    <img src="../../../public/01/jakub-dziubak-L7POzOAoaQY-unsplash.jpg" class="w-full h-full object-cover" alt="">
+                </div>
+            </div>
+            <div class="flex flex-col w-1/2 xl:pl-[100px]">
+                <div class="pt-[70px]">
+                    <h2 class="md:text-4xl text-xl font-bold mb-[20px]">日本職人手工製麵</h2>
+                    <p class="md:text-xl text-sm">麵條Ｑ彈勁道</p>
+                    <p class="md:text-xl text-sm">嚴選台灣低筋麵粉</p>
+                </div>
+                <div class="xl:w-[350px] md:w-[200px] w-[150px]">
+                    <img src="../../../public/01/Comp 1.gif" alt="吉田店長" class="h-full w-full object-cover">
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="h-[500px] overflow-hidden">
+        <div >
+            <img  src="../../../public/01/danis-lou-jfZfdQtcH6k-unsplash.jpg" class="w-full h-full object-cover thumbnail" alt="">
+        </div>
+    </section>
+    <div class="BG">
+        <section>
+            <div id="story"
+                class="story w-full h-[800px] flex flex-col flex-wrap mx-auto py-[50px] justify-center relative px-[30px]">
+                <h2 class="text-white text-xl xl:text-5xl text-bold text-center pb-[50px]">品牌故事</h2>
+                <div class="md:space-y-5 space-y-2">
+                    <p class="text-white text-center sm:text-sm md:text-xl leading-10">「麵屋犬神」於1998年由吉田スピッツ先生創立於日本東京</p>
+                    <p class="text-white text-center sm:text-sm md:text-xl leading-10">因熱愛台灣，在2015來台展店耕耘已逾7年</p>
+                    <p class="text-white text-center sm:text-sm md:text-xl leading-10">出自大和家系的拉麵，所有口味與食材堅持與日本本店一貫高品質</p>
+                    <p class="text-white text-center sm:text-sm md:text-xl leading-10">如今麵屋犬神穩穩紮根台灣，並受到台灣饕客的喜愛</p>
+                    <p class="text-white text-center sm:text-sm md:text-xl leading-10">吉田先生將把大家最熟悉的口味在台灣流傳下去。</p>
+                </div>
+                <div class="absolute xl:w-[300px] md:w-[200px] w-[180px] md:left-[300px] md:ml-[100px] lg:ml-[700px] md:bottom-[20px] bottom-[5px] left-[150px] ml-[50px]">
+                    <img src="../../../public/01/IMG_5162.PNG" class="object-cover w-full h-full" data-aos="zoom-in"
+                        data-aos-delay="200">
+                </div>
+            </div>
+        </section>
+        <section id="menu">
+            <div class="text-5xl font-bold text-center text-white mb-[40px]">
+                <h2>餐點</h2>
+            </div>
+            <div class="container flex flex-wrap mx-auto" data-aos="fade-in" data-aos-delay="100"
+                data-aos-anchor-placement="bottom-bootom">
+                <div class="card-cntainer p-[30px] md:w-1/2  lg:w-1/3 " data-aos="fade-in" data-aos-delay="200"
+                data-aos-anchor-placement="bottom-bootom">
+                <div class="flex flex-col card bg-white h-[450px] rounded-2xl overflow-hidden">
+                    <div>
+                        <div class="card-cover h-[300px]">
+                            <img src="../../../public/01/1624278632-652df9a791cf6483dece7c57d47fc487.jpg.webp" class="object-cover w-full h-full"
+                                alt="">
+                        </div>
+                        <div class="card-text justify-center flex flex-col text-center mt-[20px]">
+                            <div>
+                                <h2 class="text-2xl font-bold text-center">叉燒</h2>
+                            </div>
+                            <div class="menu-view hover:bg-yellow-600 hover:text-white duration-300 flex justify-center rounded-xl text-lg items-center bg-yellow-300 w-[180px]  h-[50px] mt-[20px] mx-auto">
+                                <a href="menu-niku.html">查看所有叉燒料理</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-cntainer p-[30px] md:w-1/2  lg:w-1/3 " data-aos="fade-in" data-aos-delay="300"
+                    data-aos-anchor-placement="bottom-bootom">
+                    <div class="flex flex-col card bg-white h-[450px] rounded-2xl overflow-hidden">
+                        <div>
+                            <div class="card-cover h-[300px]">
+                                <img src="../../../public/01/gourmet-ramen-noodles-pork-meat-vegetable-soup-generated-by-ai.jpg" class="object-cover w-full h-full"
+                                    alt="">
+                            </div>
+                            <div class="card-text justify-center flex flex-col text-center mt-[20px]">
+                                <div>
+                                    <h2 class="text-2xl font-bold text-center">拉麵</h2>
+                                </div>
+                                <div class="menu-view hover:bg-yellow-600 hover:text-white duration-300 flex justify-center rounded-xl text-lg items-center bg-yellow-300 w-[140px]  h-[50px] mt-[20px] mx-auto">
+                                    <a href="menu-ramen.html">查看所有拉麵</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-cntainer p-[30px] md:w-1/2  lg:w-1/3 " data-aos="fade-in" data-aos-delay="500"
+                    data-aos-anchor-placement="bottom-bootom">
+                    <div class="flex flex-col card bg-white h-[450px] rounded-2xl overflow-hidden">
+                        <div>
+                            <div class="card-cover h-[300px]">
+                                <img src="../../../public/01/istockphoto-1466542489-612x612.jpg" class="object-cover w-full h-full"
+                                    alt="">
+                            </div>
+                            <div class="card-text justify-center flex flex-col text-center mt-[20px]">
+                                <div>
+                                    <h2 class="text-2xl font-bold text-center">炸物</h2>
+                                </div>
+                                <div class="menu-view hover:bg-yellow-600 hover:text-white duration-300 flex justify-center rounded-xl text-lg items-center bg-yellow-300 w-[140px]  h-[50px] mt-[20px] mx-auto">
+                                    <a href="menu-fried.html">查看所有炸物</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <section id="discount" class="py-[100px] mx-auto relative flex px-[80px] flex-wrap">
+                    <div class="text-white">
+                        <h2 class="text-2xl md:text-3xl xl:text-5xl font-bold mb-[50px] text-center">歡慶麵屋犬神7週年!</h2>
+                        <ul class="list-disc text-md md:text-xl xl:text-2xl flex flex-col space-y-5">
+                            <li>套餐優惠：凡購買１拉麵＋1炸物，享9折優惠</li>
+                            <li>Google評論優惠：來店消費出示Google五星好評，免費贈送吉田先生特製豆芽一份</li>
+                            <li>集點卡優惠：來店消費100元可獲得集點卡1點，集滿10點免費兌換唐揚雞一份</li>
+                            <li>來店消費贈送吉田店長可愛防水貼紙一枚</li>
+                        </ul>
+                    </div>
+                    <div class="absolute w-[70px] md:w-[100px] xl:w-[200px] right-[90px] md:right-[0px] lg:right-[-200px] bottom-0">
+                        <p class="text-white text-center">\94窩!/</p>
+                        <img src="../../../public/01/柴犬1.png" class="w-full h-full object-cover" alt="">
+                    </div>
+                </section>
+            </div>
+        </section>
+        <hr class="color-white">
+        <footer class="h-[500px]">
+            <div class="container flex mx-auto pt-[50px] flex-col">
+                <div class="text-center mx-auto py-[30px]">
+                    <h3 class="text-white">追蹤我們社群</h3>
+                </div>
+                <div class="flex gap-[20px] mx-auto ">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook fa-2xl" style="color: #ffffff; "></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-square-instagram fa-2xl" style="color: #ffffff;"></i>
+                    </a>
+                </div>
+                <div class="w-[200px] mx-auto mt-[50px] mb-[10px]">
+                    <a href="#">
+                        <img src="../../../public/01/OK_logo.svg" class="object-cover w-full h-full" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="flex justify-center py-[10px] flex-col h-[200px]">
+                <div class="flex justify-center mt-[40px]">
+                    <a href="#" class="text-white text-xl py-[20px]">TOP</a>
+                </div>
+                <div class="flex gap-[20px] justify-center">
+                    <h3 class="text-white text-center">Web Design / YANG YUAN MIN </h3>
+                    <h3 class="text-white text-center">Photo / Unsplash</h3>
+                </div>
+                <div class="flex justify-center mt-[40px] my-[20px]">
+                    <p class="text-white">© 2023 INU-KAMI</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script>
+    AOS.init();
+    var image = document.getElementsByClassName('thumbnail');
+    new simpleParallax(image);
+    
+</script>
+
+</html>
