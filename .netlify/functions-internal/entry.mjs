@@ -1,9 +1,9 @@
 import * as adapter from '@astrojs/netlify/netlify-functions.js';
 import { renderers } from './renderers.mjs';
-import { manifest } from './manifest_c7b6b39c.mjs';
+import { manifest } from './manifest_74916aac.mjs';
 
 const _page0  = () => import('./chunks/generic_3397f2c8.mjs');
-const _page1  = () => import('./chunks/index_740f2d37.mjs');
+const _page1  = () => import('./chunks/index_fb054b17.mjs');
 const _page2  = () => import('./chunks/inukami-index_b8ec0365.mjs');
 const _page3  = () => import('./chunks/menu-fried_7e596c5b.mjs');
 const _page4  = () => import('./chunks/menu-ramen_32d8d35c.mjs');
