@@ -1,6 +1,6 @@
 import * as adapter from '@astrojs/netlify/netlify-functions.js';
 import { renderers } from './renderers.mjs';
-import { manifest } from './manifest_0962f9de.mjs';
+import { manifest } from './manifest_66103a9b.mjs';
 
 const _page0  = () => import('./chunks/generic_2fddbcf6.mjs');
 const _page1  = () => import('./chunks/index_58547323.mjs');
