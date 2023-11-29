@@ -1,30 +1,23 @@
 ---
-import Nav from "../components/Nav.astro";
+import Nav from "../components/Nav.astro"
+
+import Master from '../templates/Master.astro'
 
 //const posts = await Astro.glob('/blog/*.*')
+
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-		<script
-			is:inline
-			src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
-		></script>
-	</head>
-	<body>
-		<h1>Astro</h1>
+	<Master>
+	
+	
+	
 		<a href="inu-kami/inukami-index">123</a>
-		<Nav />
 		<!-- {
-			posts.map(post=>post.url)
+			posts.map(post=>post.frontmatter.title)
 		} -->
+		</Master>
 		<script>
 			gsap.to("h1", { x: "70%", duration: 5 });
 		</script>
-	</body>
+
 </html>
